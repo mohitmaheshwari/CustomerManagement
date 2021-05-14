@@ -1,4 +1,10 @@
-﻿namespace CustomerManagementService.Data.Repositories
+﻿using System;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+
+namespace CustomerManagementService.Data.Repositories
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
