@@ -1,4 +1,9 @@
-﻿namespace CustomerManagementService.Data.Repositories
+﻿using System;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
+
+namespace CustomerManagementService.Data.Repositories
 {
     public interface IRepositoryBase<T>
     {
